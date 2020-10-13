@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/loginscreen"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:text="LOGIN TO TECHNOLOGY DEN"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:maxLength="10"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:inputType="phone"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black"
+            android:hint="Enter Phone Number"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edtPasswordLogin"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/black" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkRemember"
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Remember Me"
+                android:textColor="@android:color/black"></CheckBox>
+
+            <TextView
+                android:id="@+id/txtForgotPassword"
+                android:textColor="@android:color/black"
+                android:text="@string/forgot_password"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:text="Login"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:text="Sign Up"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtTC"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:text="@string/terms_and_conditions"
+                android:textSize="14sp"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

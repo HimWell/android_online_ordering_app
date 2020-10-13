@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/register"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:text="REGISTER PRODUCT DEN"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="25sp"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Your Technology Journey Begins Today!"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:maxLength="10"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:hint="Enter Email"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edtAdmin"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:hint="false"
+        android:text="false"
+        android:visibility="invisible"
+        android:textColorHint="@android:color/white" />
+
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:hint="Enter Name"
+        android:textColorHint="@android:color/white" />
+
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:hint="Enter Password"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/edtSecureCode"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:hint="Enter Secure Code"
+        android:inputType="text"
+        android:textColorHint="@android:color/white" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnRegSignUp"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

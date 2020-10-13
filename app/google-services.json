@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385355156187",
+    "firebase_url": "https://technology-den.firebaseio.com",
+    "project_id": "technology-den",
+    "storage_bucket": "technology-den.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385355156187:android:60434cd079ba57ebc45afe",
+        "android_client_info": {
+          "package_name": "com.example.technologyden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385355156187-l1dricdlf66of6nrd47jooc54th0rphj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.technologyden",
+            "certificate_hash": "1197fa0777e8e6528038e2212516f62ef84f4c6e"
+          }
+        },
+        {
+          "client_id": "385355156187-dlng8hehdnlpj9m3i20nf51qk95fjb49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXAWi9PIhYqDPXAtRjCd91Gv_LMBT4ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385355156187-dlng8hehdnlpj9m3i20nf51qk95fjb49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
